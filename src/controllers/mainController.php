@@ -13,6 +13,38 @@
             $this->render('about');
         }
 
+        //page catalogue
+        public function catalogue()
+        {
+            $this->render('catalogue');
+        }
+
+
+        //page article
+        public function article()
+        {
+            $this->render('article');
+        }
+
+        //page inscription
+        public function inscription()
+        {
+            $this->render('inscription');
+        }
+
+        //page connexion
+        public function connexion()
+        {
+            $this->render('connexion');
+        }
+
+        //page panier
+        public function panier()
+        {
+            $this->render('panier');
+        }
+        
+
         public function notFound() {
 
             http_response_code(404);

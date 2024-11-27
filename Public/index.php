@@ -36,7 +36,7 @@ if ($match) {
             <h1 class="text-5xl font-extrabold mb-2">Ma boutique (no scam)</h1>
             <nav class="flex justify-center space-x-4">
                 <a href="index.php" class="hover:text-yellow-500">Accueil</a>
-                <a href="/src/views/html/catalogue.php" class="hover:text-yellow-500">Catalogue</a>
+                <a href="./catalogue" class="hover:text-yellow-500">Catalogue</a>
                 <a href="/src/views/html/connexion.php" class="hover:text-yellow-500">Connexion</a>
                 <a href="/src/views/html/inscription.php" class="hover:text-yellow-500">Inscription</a>
                 <a href="/src/views/html/panier.php" class="hover:text-yellow-500">Panier</a>
