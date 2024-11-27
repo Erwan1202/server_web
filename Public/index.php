@@ -37,9 +37,9 @@ if ($match) {
             <nav class="flex justify-center space-x-4">
                 <a href="index.php" class="hover:text-yellow-500">Accueil</a>
                 <a href="./catalogue" class="hover:text-yellow-500">Catalogue</a>
-                <a href="/src/views/html/connexion.php" class="hover:text-yellow-500">Connexion</a>
-                <a href="/src/views/html/inscription.php" class="hover:text-yellow-500">Inscription</a>
-                <a href="/src/views/html/panier.php" class="hover:text-yellow-500">Panier</a>
+                <a href="./connexion" class="hover:text-yellow-500">Connexion</a>
+                <a href="./inscription" class="hover:text-yellow-500">Inscription</a>
+                <a href="./panier" class="hover:text-yellow-500">Panier</a>
             </nav>
         </div>
     </header>
@@ -59,72 +59,72 @@ if ($match) {
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Produit 1 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="/src/views/html/articles/article1.php">
+                    <a href="./article">
                         <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="/src/views/html/articles/article1.php" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="./article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 2 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <a href="/src/views/html/articles/article1.php">
+                <a href="./article">
                     <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="/src/views/html/articles/article1.php" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="./article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 3 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <a href="/src/views/html/articles/article1.php">
+                <a href="./article">
                     <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="/src/views/html/articles/article1.php" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="./article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 4 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <a href="/src/views/html/articles/article1.php">
+                <a href="./article">
                     <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="/src/views/html/articles/article1.php" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="./article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 5 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <a href="/src/views/html/articles/article1.php">
+                <a href="./article">
                     <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="/src/views/html/articles/article1.php" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="./article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 6 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <a href="/src/views/html/articles/article1.php">
+                <a href="./article">
                     <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="/src/views/html/articles/article1.php" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="./article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-8">
-                <a href="/src/views/html/catalogue.php" class="bg-yellow-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 transition">
+                <a href="./catalogue" class="bg-yellow-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 transition">
                     Accéder au catalogue
                 </a>
             </div>
