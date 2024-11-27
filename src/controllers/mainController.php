@@ -13,6 +13,14 @@
             $this->render('about');
         }
 
+        public function notFound() {
+
+            http_response_code(404);
+    
+            echo "Page not found";
+    
+        }
+        
         // render method
         private function render($view)
         {
