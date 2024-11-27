@@ -38,10 +38,10 @@ if ($match) {
             <h1 class="text-5xl font-extrabold mb-2">Ma boutique (no scam)</h1>
             <nav class="flex justify-center space-x-4">
                 <a href="index.html" class="hover:text-yellow-500">Accueil</a>
-                <a href="html/catalogue.html" class="hover:text-yellow-500">Catalogue</a>
-                <a href="html/connexion.html" class="hover:text-yellow-500">Connexion</a>
-                <a href="html/inscription.html" class="hover:text-yellow-500">Inscription</a>
-                <a href="html/panier.html" class="hover:text-yellow-500">Panier</a>
+                <a href="/src/views/html/catalogue.php" class="hover:text-yellow-500">Catalogue</a>
+                <a href="/src/views/html/connexion.php" class="hover:text-yellow-500">Connexion</a>
+                <a href="/src/views/html/inscription.php" class="hover:text-yellow-500">Inscription</a>
+                <a href="/src/views/html/panier.php" class="hover:text-yellow-500">Panier</a>
             </nav>
         </div>
     </header>
@@ -61,7 +61,7 @@ if ($match) {
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Produit 1 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="html/articles/article1.html">
+                    <a href="/src/views/html/articles/article1.html">
                         <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
@@ -72,9 +72,9 @@ if ($match) {
 
                 <!-- Produit 2 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="html/articles/article1.html">
-                        <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
-                    </a>
+                <a href="/src/views/html/articles/article1.html">
+                    <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
                         <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
@@ -83,9 +83,9 @@ if ($match) {
 
                 <!-- Produit 3 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="html/articles/article1.html">
-                        <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
-                    </a>
+                <a href="/src/views/html/articles/article1.html">
+                    <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
                         <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
@@ -94,9 +94,9 @@ if ($match) {
 
                 <!-- Produit 4 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="html/articles/article1.html">
-                        <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
-                    </a>
+                <a href="/src/views/html/articles/article1.html">
+                    <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
                         <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
@@ -105,9 +105,9 @@ if ($match) {
 
                 <!-- Produit 5 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="html/articles/article1.html">
-                        <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
-                    </a>
+                <a href="/src/views/html/articles/article1.html">
+                    <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
                         <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
@@ -116,9 +116,9 @@ if ($match) {
 
                 <!-- Produit 6 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="html/articles/article1.html">
-                        <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
-                    </a>
+                <a href="/src/views/html/articles/article1.html">
+                    <img src="image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
                         <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
@@ -126,7 +126,7 @@ if ($match) {
                 </div>
             </div>
             <div class="text-center mt-8">
-                <a href="html/catalogue.html" class="bg-yellow-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 transition">
+                <a href="/src/views/html/catalogue.php" class="bg-yellow-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 transition">
                     Accéder au catalogue
                 </a>
             </div>
