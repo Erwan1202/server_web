@@ -1,0 +1,16 @@
+{
+    "name": "altorouter/altorouter",
+    "description": "site serveur web",
+    "autoload": {
+        "psr-4": {
+            "Altorouter\\Altorouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lord Erwan",
+            "email": "erwan.a.marechal@gmail.com"
+        }
+    ],
+    "require": {}
+}
