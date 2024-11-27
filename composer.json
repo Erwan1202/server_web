@@ -1,9 +1,9 @@
 {
-    "name": "altorouter/altorouter",
-    "description": "site serveur web",
+    "name": "lorderwan/webserver",
+    "description": "Site serveur web",
     "autoload": {
         "psr-4": {
-            "Altorouter\\Altorouter\\": "src/"
+            "LordErwan\\WebServer\\": "src/"
         }
     },
     "authors": [
@@ -12,9 +12,7 @@
             "email": "erwan.a.marechal@gmail.com"
         }
     ],
-    
-        "require": {
-            "altorouter/altorouter": "^2.0"
-        }
-    
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
 }
