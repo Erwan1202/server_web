@@ -1,7 +1,7 @@
 <?php
 
-require_once __DIR__ . '/../src/controllers/MainController.php';
-$router = require_once __DIR__ . '/../src/router/router.php';
+require_once __DIR__ . '/../controllers/mainController.php';
+$router = require_once __DIR__ . '/../router/router.php';
 
 // Débogage : voir les routes et la correspondance
 var_dump($router->getRoutes());
