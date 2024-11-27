@@ -12,5 +12,9 @@
             "email": "erwan.a.marechal@gmail.com"
         }
     ],
-    "require": {}
+    
+        "require": {
+            "altorouter/altorouter": "^2.0"
+        }
+    
 }
