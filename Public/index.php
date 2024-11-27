@@ -64,7 +64,7 @@ if ($match) {
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/src/views/html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@ if ($match) {
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/src/views/html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ if ($match) {
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/src/views/html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@ if ($match) {
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/src/views/html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@ if ($match) {
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/src/views/html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
@@ -119,7 +119,7 @@ if ($match) {
                 </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
-                        <a href="html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/src/views/html/articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
             </div>
