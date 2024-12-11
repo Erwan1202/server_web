@@ -45,14 +45,7 @@
         }
         
 
-        public function notFound() {
-
-            http_response_code(404);
     
-            echo "Page not found";
-    
-        }
-        
     private function render($view, $data = [])
         {
         // Transmet les données aux vues
