@@ -49,19 +49,21 @@ class MainController
         $this->render('404'); // Rendre une vue 404 personnalisée
     }
 
-    // Méthode pour inclure les vues
     private function render($view, $data = [])
-    {
-        // Transmet les données aux vues
-        extract($data);
+{
+    // Transmet les données aux vues
+    extract($data);
 
-        // Inclut la vue demandée
-        $viewFile = __DIR__ . '/../views/' . $view . '.php';
-        if (file_exists($viewFile)) {
-            require_once $viewFile;
-        } else {
-            echo "View not found: $view";
-        }
+    // Construire le chemin du fichier de vue
+    $viewFile = __DIR__ . '/../views/' . $view . '.php';
+
+    // Vérifier si le fichier existe
+    if (file_exists($viewFile)) {
+        require_once $viewFile;
+    } else {
+        echo "Erreur : Vue introuvable - $viewFile";
     }
+}
+
 }
 ?>
