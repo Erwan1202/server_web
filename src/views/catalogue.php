@@ -6,7 +6,7 @@ $router = require_once __DIR__ . '/../router/router.php';
 $match = $router->match();
 
 if ($match) {
-    var_dump($match); // Voir ce qu'AltoRouter détecte pour la requête
+
     [$controller, $method] = explode('#', $match['target']);
     
     if (class_exists($controller) && method_exists($controller, $method)) {
@@ -31,7 +31,7 @@ if ($match) {
     <header class="bg-gray-800 text-white">
         <div class="container mx-auto py-4 text-center">
             <h1 class="text-3xl font-bold">Catalogue</h1>
-            <a href="../index.html" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
+            <a href="/server_web/Public/index" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
         </div>
     </header>
 
@@ -41,73 +41,73 @@ if ($match) {
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Produit 1 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="./articles/article1.html">
-                        <img src="../image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                    <a href="/server_web/src/views/article">
+                        <img src="../../Public/image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon oiseau</h4>
                         <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">20€</span></p>
-                        <a href="./articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <a href="/server_web/src/views/article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 2 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="./articles/article1.html">
-                        <img src="../image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                <a href="/server_web/src/views/article">
+                        <img src="../../Public/image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon chat</h4>
-                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">30€</span></p>
-                        <a href="./articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">20€</span></p>
+                        <a href="/server_web/src/views/article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 3 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="./articles/article1.html">
-                        <img src="../image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                <a href="/server_web/src/views/article">
+                        <img src="../../Public/image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon chien</h4>
-                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">50€</span></p>
-                        <a href="./articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">20€</span></p>
+                        <a href="/server_web/src/views/article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 4 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="./articles/article1.html">
-                        <img src="../image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                    <a href="/server_web/src/views/article">
+                        <img src="../../Public/image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon poisson</h4>
-                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">15€</span></p>
-                        <a href="./articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">20€</span></p>
+                        <a href="/server_web/src/views/article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 5 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="./articles/article1.html">
-                        <img src="../image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                    <a href="/server_web/src/views/article">
+                        <img src="../../Public/image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon hamster</h4>
-                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">10€</span></p>
-                        <a href="./articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">20€</span></p>
+                        <a href="/server_web/src/views/article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
 
                 <!-- Produit 6 -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <a href="./articles/article1.html">
-                        <img src="../image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
+                    <a href="/server_web/src/views/article">
+                        <img src="../../Public/image/mon_oiseau.jpg" alt="Image produit" class="w-full h-48 object-cover">
                     </a>
                     <div class="p-4 text-center">
                         <h4 class="text-xl font-bold mb-2">Mon lapin</h4>
-                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">25€</span></p>
-                        <a href="./articles/article1.html" class="text-blue-500 hover:underline">Voir plus</a>
+                        <p class="text-gray-700 mb-2">Prix : <span class="font-bold text-yellow-600">20€</span></p>
+                        <a href="/server_web/src/views/article" class="text-blue-500 hover:underline">Voir plus</a>
                     </div>
                 </div>
             </div>

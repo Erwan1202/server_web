@@ -8,7 +8,7 @@ $router = require_once __DIR__ . '/../router/router.php';
 $match = $router->match();
 
 if ($match) {
-    var_dump($match); // Voir ce qu'AltoRouter détecte pour la requête
+
     [$controller, $method] = explode('#', $match['target']);
     
     if (class_exists($controller) && method_exists($controller, $method)) {
@@ -36,14 +36,14 @@ if ($match) {
             <h1 class="text-3xl font-bold">Détails du produit</h1>
             <a href="/" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
             <span class="mx-4">|</span>
-            <a href="./catalogue" class="text-yellow-500 hover:underline">Retour au catalogue</a>
+            <a href="/server_web/src/views/catalogue" class="text-yellow-500 hover:underline">Retour au catalogue</a>
         </div>
     </header>
     <main class="py-12">
         <div class="container mx-auto">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden p-6">
                 <div class="flex flex-col lg:flex-row items-center">
-                    <img src="../../image/mon_oiseau.jpg" alt="Mon oiseau" class="w-full lg:w-1/3 h-64 object-cover mb-4 lg:mb-0 lg:mr-8">
+                    <img src="../../Public/image/mon_oiseau.jpg" alt="Mon oiseau" class="w-full lg:w-1/3 h-64 object-cover mb-4 lg:mb-0 lg:mr-8">
                     <div class="flex-1">
                         <h2 class="text-2xl font-bold mb-4">Mon oiseau</h2>
                         <p class="text-gray-700 mb-4">Découvrez notre magnifique oiseau, parfait pour apporter une touche exotique à votre maison.</p>

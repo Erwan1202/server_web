@@ -33,7 +33,7 @@ if ($match) {
     <header class="bg-gray-800 text-white">
         <div class="container mx-auto py-4 text-center">
             <h1 class="text-3xl font-bold">Votre panier</h1>
-            <a href="../index.html" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
+            <a href="/server_web/Public/index" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
         </div>
     </header>
     <section class="py-12">
