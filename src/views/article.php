@@ -34,7 +34,7 @@ if ($match) {
     <header class="bg-gray-800 text-white">
         <div class="container mx-auto py-4 text-center">
             <h1 class="text-3xl font-bold">Détails du produit</h1>
-            <a href="/" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
+            <a href="/server_web/Public/index" class="text-yellow-500 hover:underline">Retour à l'accueil</a>
             <span class="mx-4">|</span>
             <a href="/server_web/src/views/catalogue" class="text-yellow-500 hover:underline">Retour au catalogue</a>
         </div>
