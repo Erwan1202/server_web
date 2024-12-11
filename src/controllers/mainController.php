@@ -61,7 +61,7 @@ class MainController
     if (file_exists($viewFile)) {
         require_once $viewFile;
     } else {
-        echo "Erreur : Vue introuvable - $viewFile";
+        //echo "Erreur : Vue introuvable - $viewFile";
     }
 }
 
