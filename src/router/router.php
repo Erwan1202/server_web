@@ -1,42 +1,20 @@
 <?php
-// Inclure le fichier du contrôleur principal
-require_once __DIR__ . '/../controllers/MainController.php';
+    require_once __DIR__ . '/../../vendor/autoload.php';
+    require_once __DIR__ . '/../controllers/mainController.php';
 
-// Initialiser le contrôleur
-$controller = new MainController();
+    $router = new AltoRouter();
+    
+    $basePath = isset($_SERVER['BASE_URI']) ? $_SERVER['BASE_URI'] : '';
+    $router->setBasePath($basePath);
+    
+    $router->map('GET', '/', 'MainController#home', 'home');
+    $router->map('GET', '/about', 'MainController#about', 'about');
+    $router->map('GET', '/catalogue', 'MainController#catalogue', 'catalogue');
+    $router->map('GET', '/article', 'MainController#article', 'article');
+    $router->map('GET', '/inscription', 'MainController#inscription', 'inscription');
+    $router->map('GET', '/connexion', 'MainController#connexion', 'connexion');
+    $router->map('GET', '/panier', 'MainController#panier', 'panier');
 
-// Définir les routes disponibles
-$routes = [
-    'GET' => [
-        '/' => 'home',
-        '/about' => 'about',
-        '/catalogue' => 'catalogue',
-        '/article' => 'article',
-        '/inscription' => 'inscription',
-        '/connexion' => 'connexion',
-        '/panier' => 'panier'
-    ]
-];
-
-// Récupérer la méthode HTTP et l'URL demandée
-$method = $_SERVER['REQUEST_METHOD'];
-$path = $_SERVER['REQUEST_URI'];
-
-// Nettoyer l'URL pour supprimer les paramètres éventuels (ex: ?id=1)
-$path = strtok($path, '?');
-
-// Vérifier si la route existe
-if (isset($routes[$method][$path])) {
-    $action = $routes[$method][$path];
-    if (method_exists($controller, $action)) {
-        // Appeler la méthode correspondante dans le contrôleur
-        $controller->$action();
-    } else {
-        // Méthode non définie dans le contrôleur
-        echo "Erreur : Méthode '$action' non trouvée dans MainController.";
-    }
-} else {
-    // Route non trouvée
-    $controller->notFound();
-}
+    
+    return $router;
 ?>
