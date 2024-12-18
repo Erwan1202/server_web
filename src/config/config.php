@@ -1,6 +1,6 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'smartbike');
+define('DB_NAME', 'NoScam');
 define('DB_USER', 'erwan');
 define('DB_PASS', 'votre_mot_de_passe');
 
